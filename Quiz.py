@@ -13,6 +13,11 @@ if x==1:
     ->All The best
      
       ''')
+elif x==3:
+    print('''Welcome to invitation card generator
+          ->Write Your Details To Generate the card''')
+    print(''' 
+          ''')
 else :
     print('''Topic Not selected
             Please Start Again''')
@@ -226,3 +231,47 @@ if x==1:
         print("Poor Concepts!!")
     else:
         print("Let's Try Again") 
+            
+  if x==3:
+    print("Your details:->")
+    
+    A=input("Enter Reciver Name: ")
+    B=input("Enter The reciver's House Address: ")
+    C=input("Enter The reciver's City,state: ")
+    D=input("Enter Your Name: ")
+    E=input("Enter Your House Address: ")
+    F=input("Enter Your City,State: ")
+    G=input("Enter The occasion: ")
+    x=input("Enter Occasion date (dd/mm/yyyy): ")
+    H=input("Enter The Venue Of occasion: ")
+    print(''' 
+
+             ''')
+
+    print('To-')
+    print(A)
+    print(B)
+    print(C)
+    print('''
+             ''')
+    print('From-')
+    print(D)
+    print('Address',E,)
+    print(F)
+    print(''' ''')
+
+    print("Invitation for ",G,)
+    print(''' ''')
+    print("Dear",A,)
+    print('''  ''')
+    print( "We are Glad to invite you to" ,G, "on the date",x,)
+    print('''
+    I have arranged a small party on that day
+    I would earnestly request you to join''')
+    print("    There will be lots of fun in the party")
+    print("    We look forward to your presence along with your family at",H,)
+    print( '''  Rest when we meet :)
+                               ''')
+
+    print("Your Affectionately")
+    print(D)
