@@ -14,4 +14,12 @@ In this programme we can do many operations in a array made by user such that
  4)Addition of all elemnent in array
  5)Searching an element in array 
  
+ PYTHON QUIZ:
+ There is a Quiz made on Python Language .
+ On every correct answer player will be awarded some points
+ And for every incorrect answer no point will be awarded .
+ At the end Total point will be displayed
+ 
+
+ 
  
