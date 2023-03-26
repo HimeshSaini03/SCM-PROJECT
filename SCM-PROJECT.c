@@ -28,7 +28,12 @@ int main(){
     }
     printf("\n");
     printf("\n");
-    printf("Select The Operation You want to do with this Array: 1) Reverse the Array : 2) Find Maximum and Minimum in array ");
+    printf("Select The Operation You want to do with this Array: "
+    "1) Reverse the Array :"
+    "2) Find Maximum and Minimum in array :"
+    "3) Arranging Array in acesnding order: "
+    "4)Addition of all elemnent in array:"
+    "5)Searching an element in array ");
     printf("\n");
     printf("Enter a number : ");
     int x;
