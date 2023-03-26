@@ -1,5 +1,5 @@
-name=input("Enter your Name:")
-R=int(input("Enter your roll Number:2210990"))
+name=input("Enter Your Name:")
+R=int(input("Enter Your roll Number:2210990"))
 print('''Let's start 
       Select One : 1=Python Quiz Game 2=Calculator 3=Invitaion Card Generator''')
 x=int(input("You Selected->"))
@@ -13,22 +13,6 @@ if x==1:
     ->All The best
      
       ''')
-elif x==2:
-    print('''Your CALCULATOR is ready
-    For ADDITION TYPE 1
-    FOR SUBTRACTION TYPE 2
-    FOR MULTIPLICATION TYPE 3
-    FOR DIVISION TYPE 4
-    FOR MUDULUS TYPE 5
-    FOR FACTORIAL TYPE 6
-    FOR AGE CALCULATOR TYPE 7
-    
-    ''')
-elif x==3:
-    print('''Welcome to invitation card generator
-          ->Write Your Details To Generate the card''')
-    print(''' 
-          ''')
 else :
     print('''Topic Not selected
             Please Start Again''')
