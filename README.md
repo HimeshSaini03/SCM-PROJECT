@@ -20,6 +20,9 @@ In this programme we can do many operations in a array made by user such that
  And for every incorrect answer no point will be awarded .
  At the end Total point will be displayed
  
+ INVITATION LETTER GENERATOR :
+ Taking some details from the user ..An invitaion letter will be generated for any function that user wish to enter
+ 
 
  
  
