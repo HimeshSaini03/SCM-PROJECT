@@ -242,6 +242,55 @@ if x==1:
         print("Poor Concepts!!")
     else:
         print("Let's Try Again") 
+  #CALCULATOR
+if x==2:
+    OP=int(input("Select the Operation you want to do: "))
+    if OP==1:
+        g=int(input("Enter Total NUmber Of Quantites: "))
+        add=0
+        for i in range (g):
+            num1=int(input("Enter Number for Addition: "))
+            add=add+num1
+        print(add)
+    if OP==2:
+        num1=int(input("Enter Number for Subtraction: "))
+        num2=int(input("Enter Number for Subtraction: "))
+        sub=num1-num2
+        print(sub)
+        
+    if OP==3:
+        g=int(input("Enter Total Number Of Quantites: "))
+        mul=1
+        for i in range (g):
+            num1=int(input("Enter Number for Multiplication: "))
+            mul=mul*num1
+        print(mul)
+    if OP==4:
+        num1=int(input("Enter First Number for Division:"))
+        num2=int(input("Enter Second Number Division:"))
+        div=num1/num2
+        print(div)
+    if OP==5:
+        num1=int(input("Enter First Number (Dividend):"))
+        num2=int(input("Enter Second Number(Divisor):"))
+        mod=num1%num2
+        print("Remainder:",mod)
+    if OP==6:
+        def factorial(x):
+            fact=1
+            for i in range(1,x+1):
+                fact=fact*i
+            print("Factorial =",fact)
+                
+        x=int(input("Enter a Number To find Factorial: "))
+        factorial(x)
+        
+    if OP==7:
+        Y=int(input("Enter Your Birth Year: "))
+        T=int(input("Enter Current Year: "))
+        diff=T-Y
+        print("Your AGE is: ",diff)
+
             
   if x==3:
     print("Your details:->")
