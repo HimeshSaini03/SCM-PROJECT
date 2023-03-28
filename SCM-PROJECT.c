@@ -192,7 +192,37 @@ int main(){
                 printf(" %d ", array[i]);
         printf("\n");
         printf("\n");
-        
+        printf("\nSource Code: ");
+        printf("\n/*C Program to sort array in ascending order using bubble sort  */"
+
+                "\n#include<stdio.h>"
+                "\nint main(){"
+        "\nint array[50], n, i, j, temp;"
+        "\nprintf(Enter number of elements :: );"
+        "\nscanf(%d, &n);"
+        "\nprintf(\nEnter %d integers :: \n, n);"
+        "\nfor(i = 0; i < n; i++)"
+    "\n{"
+        "\nprintf(\nEnter %d integer :: , i+1);"
+        "\nscanf(%d, &array[i]);"
+
+    "\n}"
+
+        "\nfor (i = 0 ; i < ( n - 1 ); i++){"
+                "\nfor (j= 0 ; j < n - i - 1; j++){"
+                        "\nif(array[j] > array[j+1]){"
+                                "\ntemp=array[j];"
+                                "\narray[j]   = array[j+1];"
+                                "\narray[j+1] = temp;"
+                        "\n}"
+                "\n}"
+        "\n}"
+        "\nprintf(\nSorted list in ascending order :: );"
+        "\nfor ( i = 0 ; i < n ; i++ )"
+                "\nprintf( %d , array[i]);"
+        "\nreturn 0;"
+        "\n}"
+);
 }
     if(user_input == 4){
 
