@@ -272,7 +272,7 @@ int main(){
                 "\nprintf(\na[%d]=%d, i+1, arr[i]);"
 
             "\nPrinting of total"
-            "\nprintf(\nSum of all elements = %d, sum);"
+            "\nprintf(\nSum of all elements = %d, sum);
 
             "\nreturn 0;"
             "\n}"
