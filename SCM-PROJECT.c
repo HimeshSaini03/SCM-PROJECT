@@ -317,7 +317,7 @@ int main(){
         printf("\n");
         printf("\n");
         printf("Source code: ");
-        printf("\n/*  C Program to search an element in the array  */"
+        printf("\n/*  C Program to Search an element in the array  */"
 
             "\n#include <stdio.h>"
 
